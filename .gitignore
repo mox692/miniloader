@@ -1,0 +1,6 @@
+miniloader
+chflg
+*.o
+pheader.txt
+.vscode
+sample.bin
