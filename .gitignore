@@ -4,3 +4,6 @@ chflg
 pheader.txt
 .vscode
 sample.bin
+.gdb*
+jmp.c
+peda-session*

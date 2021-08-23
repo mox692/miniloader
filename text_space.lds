@@ -55,10 +55,9 @@ SECTIONS
 .plt.sec        : { *(.plt.sec) }
   .text           :
   {
-    head_text = .;
+    __TextStart = .;
     /* Create space whre application is loaded. */
     . += 0x400000;
-    mid_text = .;
     *(.text.unlikely .text.*_unlikely .text.unlikely.*)
     *(.text.exit .text.exit.*)
     *(.text.startup .text.startup.*)
