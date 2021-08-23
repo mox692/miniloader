@@ -10,7 +10,7 @@ It is for Linux and x86_64 arch.
 4. Loaded binary starts.
 
 ### Test run
-In author's environment, there operation successed.
+In author's environment(`x86_64`, `Ubuntu 18.04`, `gcc7.5.0`), these operation successed.
 
 ```
 $ ./chflg miniloader
@@ -18,5 +18,5 @@ $ ./chflg miniloader
 $ ./miniloader loaded
 ```
 By using debuging tool like gdb,  
-you can check that miniloader jmp to loaded's instruction.
+you can check that `miniloader` jmp to `loaded`'s instruction.
 
